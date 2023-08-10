@@ -18,6 +18,31 @@ ul {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Хеадер */
+
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.header-main-div {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
 .nav-logo {
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
@@ -26,6 +51,7 @@ ul {
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .nav-logo-span {
@@ -38,6 +64,8 @@ ul {
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 24px;
+    display: flex;
+    gap: 40px;
 }
 
 .adress-href{
@@ -53,20 +81,24 @@ ul {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-href:hover, a:focus {
     color: #404bbf;
 }
 
-address {
+.address {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 
 /* секція 1 */
 
 .section-one {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .section-one-main-text {
@@ -75,17 +107,23 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .main-button {
-    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
 }
 
 .main-button:hover, button:focus {
@@ -94,11 +132,29 @@ address {
 
 /* секція 2 */
 
+.section-twoo {
+    padding: 120px 0;
+}
+
+.section-twoo h2 {
+    visibility: hidden;
+}
+
+.section-twoo-ul {
+    display: flex;
+    gap: 24px;
+}
+
+.section-twoo-ul .ul_li {
+    width: calc((100% - 72px) / 4);
+}
+
 .section-twoo-text{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .section-twoo-p {
