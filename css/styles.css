@@ -1,0 +1,188 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    color: #2E2F42;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-logo {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.nav-logo-span {
+    color: #2e2f42;
+}
+
+.nav-ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
+}
+
+.adress-href{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    color: #434455;
+}
+
+.nav-href {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-href:hover, a:focus {
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+}
+
+/* секція 1 */
+
+.section-one {
+    background-color: #2e2f42;
+}
+
+.section-one-main-text {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.main-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer
+}
+
+.main-button:hover, button:focus {
+    background-color: #404BBF;
+}
+
+/* секція 2 */
+
+.section-twoo-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-twoo-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px
+}
+
+/* секція 3 */
+
+.section-three {
+    background-color: #F4F4FD;
+}
+
+.section-three-main-text {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-three-li {
+    background-color: #FFFFFF;
+}
+
+.section-three-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-three-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* секція 4 */
+
+.section-four-main-text {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-four-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-four-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* футер */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.footer-logo-span {
+    color: #f4f4fd;
+}
+
+.footer-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;;
+}
