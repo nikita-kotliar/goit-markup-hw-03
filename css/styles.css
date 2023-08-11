@@ -63,6 +63,7 @@ img {
 
 .navigation {
     display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -169,6 +170,7 @@ img {
 .section-twoo-ul {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-twoo-text{
