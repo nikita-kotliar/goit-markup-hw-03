@@ -170,6 +170,9 @@ img {
 .section-twoo-ul {
     display: flex;
     gap: 24px;
+}
+
+.section-twoo-li {
     width: calc((100% - 72px) / 4);
 }
 
