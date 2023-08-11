@@ -28,10 +28,24 @@ img {
     padding: 0 15px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 /* Хеадер */
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    max-height: 56px;
 }
 
 .header-main-div {
@@ -102,6 +116,14 @@ img {
 .section-one {
     background-color: #2e2f42;
     padding: 188px 0;
+    min-height: calc(100vh - 56px);
+}
+
+.section-one-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section-one-main-text {
@@ -139,17 +161,13 @@ img {
     padding: 120px 0;
 }
 
-.section-twoo h2 {
-    visibility: hidden;
-}
-
 .section-twoo-ul {
     display: flex;
     gap: 24px;
 }
 
-.section-twoo-ul .ul_li {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+.section-twoo-li {
+    width: calc((100% - 72px) / 4);
 }
 
 .section-twoo-text{
@@ -185,6 +203,7 @@ img {
 .section-three-ul {
     display: flex;
     gap: 24px;
+    columns: 3;
 }
 
 .section-three-li {
@@ -193,7 +212,7 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-.sectionthree-li-div {
+.section-three-li-div {
     padding: 32px 0;
 }
 
@@ -243,7 +262,6 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-bottom: 8px;
 }
 
 .section-four-text {
@@ -251,6 +269,7 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .section-four-p {
